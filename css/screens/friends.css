@@ -37,7 +37,7 @@
 }
 
 #splash-creen {
-  background-color: var(--yellow);
+  background-color: white;
   position: absolute;
   width: 100vw;
   height: 100vh;

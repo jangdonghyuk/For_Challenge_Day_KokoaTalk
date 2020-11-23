@@ -19,11 +19,10 @@
   flex-direction: column;
   align-items: center;
 }
-.more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
+.more-suggestions__icon-image img {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 19px 38px #b2d7e0, 0 15px 12px #b2d7e0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,4 +31,8 @@
 .more-suggestions__icon-image i {
   font: 32px;
   color: white;
+}
+.more-suggestions__icon-text {
+  font-size: 12px;
+  font-weight: 600;
 }
